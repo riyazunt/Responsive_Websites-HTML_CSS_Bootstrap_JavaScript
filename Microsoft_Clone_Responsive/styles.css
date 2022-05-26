@@ -1,0 +1,310 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+/* a {
+  color: #262626;
+  text-decoration: none;
+} */
+
+ul {
+  list-style: none;
+}
+.logo{
+  height: 24px;
+  margin-right: 25px;
+}
+.container-fluid {
+  font-size: 13px;
+}
+span.navbar-toggler-icon{
+  height: 20px;
+  width: 20px;
+  border: none;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+/* .navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-toggler-icon:focus,  */
+.navbar-light .navbar-toggler:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* a.btn:focus{
+  outline: none;
+  border: none;
+  box-shadow: none;
+} */
+
+.follow{
+  padding: 0 50px;
+}
+
+/* Showcase */
+#first {
+  width: 100%;
+  height: 500px;
+  padding-top: 70px;
+  background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Surface-Pro8-Hero:VP4-1399x600') no-repeat center center/cover;
+}
+
+#second a.btn,
+#first a.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background:rgb(0, 103, 184);
+  color: #fff;
+  font-size: 15px;
+}
+#second a.btn,
+#first a.btn:hover{
+  color: white;
+}
+#second a.btn,
+#first a.btn:active{
+  opacity: 0.9;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+#first .col-lg-3 p{
+  font-size: 15px;
+  margin: 25px 0;
+  max-width: 250px;
+}
+
+/*icons*/
+.card{
+  border: none;
+}
+
+
+
+.box-icons{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 45px 0;
+}
+.box-icons-sub{
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 35px;
+}
+.box-icons-sub img{
+  height: 39px;
+  margin-bottom: 5px;
+}
+.box-icons-sub div{
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 120px;
+  text-align: center;
+}
+.box-icons-sub div:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+
+
+/* Home cards */
+.col{
+  border: 0;
+}
+#homerow1{
+  margin-bottom: 30px;
+}
+/* Microsoft Edge */
+
+#second {
+  width: 100%;
+  height: 500px;
+  justify-content: left;
+  align-content: center;
+  margin-bottom: 50px;
+  background: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4ncJa') no-repeat center center/cover;
+}
+#second .container{
+  background-color: #ffffff;
+  height: 280px;
+  width: 375px;
+  margin: 0;
+  padding: 0;
+  margin-left: 70px;
+  padding: 50px 20px 40px 15px;
+}
+
+#second .col-lg-3 p{
+  font-size: 15px;
+  width: 250px;
+  margin: 20px 0;
+}
+#second .col-lg-3 a{
+width: 130px;
+height: 40px;
+font-size: 13px;
+padding: 0;
+margin: 0;
+padding: 8px;
+}
+#second .col-lg-3 h2{
+width: 300px;
+}
+
+
+.card{
+  cursor: pointer;
+}
+
+/* Follow */
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0 30px;
+}
+.follow *{
+  margin-right: 7.5px;
+}
+.follow p{
+  margin-right: 15px;
+  margin-top: 10px  ;
+  color: rgb(104, 104, 104);
+}
+.follow img{
+  height: 27px;
+  width: 27px;
+}
+
+
+
+/* Links */
+.links {
+  background: #f2f2f2;
+  color: #4a4a4a;
+  font-size: 12px;
+  padding: 35px 0;
+}
+.links-inner {
+  max-width: 86%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.links li {
+  line-height: 2.8;
+}
+.links-inner li h3{
+  font-size: 14px;
+}
+.links-inner li a{
+  font-size: 11px;
+  color: rgb(104, 104, 104);
+  text-decoration: none;
+}
+.links-inner li a:hover{
+  text-decoration: underline;
+}
+
+
+
+/* Footer */
+.footer {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+}
+.footer-inner {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer li a{
+  text-decoration: none;
+}
+.footer li a:hover,
+.links li a:hover{
+  text-decoration: underline;
+}
+.footer-inner div p:hover{
+  text-decoration: underline;
+}
+.footer-inner div{
+  cursor: pointer;
+}
+.footer div {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer div i {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer li {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.footer li a{
+  font-size: 11px;
+  color: rgb(104, 104, 104);
+}
+
+
+
+
+
+
+
+.right img{
+  height: 15px; 
+  padding: 0 10px;
+}
+.right{
+  align-items: center;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+#sign img{
+  height: 30px;
+}
+
+.navbar-nav .nav-link:hover{
+  border-style: dotted;
+  border-width: 0.2px;
+} 
