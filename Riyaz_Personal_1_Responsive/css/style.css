@@ -82,9 +82,6 @@ header{
     width: 100%;
     z-index: 1000;
 }
-/* #header.changed{
-    min-height: 100vh;  
-} */
 
 header .navbar{
     writing-mode: horizontal-tb;
@@ -454,6 +451,9 @@ margin-top: 39px;
     header{
         width:100%;
         left:-120%;
+    }
+    header{
+        min-height: 100vh;  
     }
 
     header.active{
